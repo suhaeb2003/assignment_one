@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right top, #2d0036, #4f015b, #730283, #9a02ac, #C400D7);
+}
+.card{
+    position: relative;
+    width: 350px;
+    height: 500px;
+    background: #231E39;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+.card-body{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #ffffffae;
+}
+.card-body img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    padding: 4px;
+}
+.card-body img{
+    border: #9a02ac 2px solid;
+}
+.card-body h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}   
+.card-body h4{
+    font-size: 14px;    
+    margin-bottom: 10px;
+}   
+.card-body p{           
+    font-size: 14px;    
+    margin-bottom: 10px;
+}
+.btn_group{
+    display: flex;
+    justify-content: center;
+}
+.btn_group button{
+    background-color: #C400D7;
+    border: 1px solid #C400D7;
+    border-radius: 3px;
+    color: #ffffff9e;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    padding: 10px 25px;
+}
+.btn-1{
+    margin-left: 10px;
+    background-color: #c500d702 !important;
+    border: 1px solid #C400D7;
+}
+.card-footer{
+    
+    width: 100%;
+    padding: 0px;
+    background: #231e39e4;
+    color: #dadada;
+    text-align: left;
+    
+}
+.card-footer b{
+    display: block;
+    margin-bottom: 10px; 
+    text-align: left;   
+}
+.card-footer li{
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 8px;
+    text-align: left;
+    list-style-type: none;
+    border: 1px solid #979797;
+    border-radius: 3px;
+}
+
