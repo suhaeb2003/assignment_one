@@ -77,13 +77,12 @@ section{
     border: 1px solid #C400D7;
 }
 .card-footer{
-    
     width: 100%;
     padding: 0px;
     background: #231e39e4;
     color: #dadada;
     text-align: left;
-    
+    padding-top: 11px;
 }
 .card-footer b{
     display: block;
